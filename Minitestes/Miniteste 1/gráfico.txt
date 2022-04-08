@@ -1,0 +1,9 @@
+1.ª forma (preferencial)
+
+x=a:0.001:b; plot(x, y1, x, y2); legend("y1=(...)", "y2=(...)")
+
+2.ª forma
+
+x=a:0.001:b; plot(x, y1-y2, x, 0*x); legend("f(x)=(...)", "y=0")
+
+PS: Começar com a=-1 e b=1.
